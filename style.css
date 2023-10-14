@@ -1,0 +1,70 @@
+   body {
+       padding: 0px;
+       margin: 0px;
+       background-image: url(./desktop\ 1.jpg);
+       background-size: cover;
+       width: 50%;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   h1 {
+       color: wheat;
+       padding: 180px 0px 0px 120px;
+       font-size: 50px;
+   }
+
+   p {
+       color: wheat;
+       padding: 0px 0px 0px 120px;
+       font-size: 22px;
+   }
+
+   p span {
+       border-bottom: 3px solid gold;
+   }
+
+   ul {
+       display: flex;
+       list-style: none;
+       padding: 0px 0px 0px 105px;
+       margin-left: 1rem;
+   }
+
+   a {
+       color: wheat;
+       text-decoration: none;
+       padding: 14px;
+       font-weight: 600;
+       font-size: 25px;
+       position: relative;
+   }
+
+   a::before {
+       content: "";
+       position: absolute;
+       bottom: 10px;
+       height: 3px;
+       width: 0px;
+       background-color: gold;
+       border-radius: 25px;
+       transition: 0.4s ease;
+   }
+
+   a:hover::before {
+       width: 40px;
+   }
+
+   .icon {
+       padding-left: 120px;
+
+   }
+
+   .icon img {
+       height: px 35px;
+       width: 35px;
+       background-color: wheat;
+       border-radius: 50%;
+       padding: 2px;
+       margin-right: 5px;
+       box-shadow: 0px 1px 5px 1px rgb(72, 71, 71);
+   }
